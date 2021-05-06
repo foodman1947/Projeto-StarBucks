@@ -45,7 +45,7 @@ ambur.addEventListener('click',function(){
         barra2.style.top = '15px';
         lala = true;
         submenu.style.marginTop = '50px';
-        submenu.style.width = '95%';
+        submenu.style.width = '90%';
         submenu.style.height = '100px';
         window.setTimeout(function() {
             ule.style.display = 'inline-block';

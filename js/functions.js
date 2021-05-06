@@ -62,6 +62,7 @@ ambur.addEventListener('click',function(){
         submenu.style.height = '0px';
         ule.style.display = 'none';
         lala = false;
+        console.log('a')
 
     };
         

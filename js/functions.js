@@ -22,7 +22,7 @@ img3.addEventListener('click',function(){
     vuvu.style.backgroundColor = "#bf2d95";
     gugu.style.backgroundImage = "url('img/img3.png')";
     gugu.style.transform = "rotate(-15deg)";
-    gugu.style.marginTop = '-80px';
+    gugu.style.marginTop = '-40px';
 
 });
 

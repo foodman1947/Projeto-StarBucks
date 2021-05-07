@@ -44,7 +44,7 @@ ambur.addEventListener('click',function(){
         barra2.style.transform = "rotate(50deg)"
         barra2.style.top = '15px';
         lala = true;
-        submenu.style.marginTop = '50px';
+        submenu.style.marginTop = '56px';
         submenu.style.width = '90%';
         submenu.style.height = '100px';
         window.setTimeout(function() {

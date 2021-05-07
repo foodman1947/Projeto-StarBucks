@@ -84,15 +84,16 @@ div.amburguer ul{
 }
 div.submenu{
     transform:translate(-85%,0%);
-    background-color:rgba(10, 92, 24, 0.5);
+    background-color:rgba(10, 92, 24, 1000);
     position:absolute;
-    opacity: 0.9;
     transition:0.2s linear;
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     border-radius:20px;
+
 }
 
 
@@ -231,11 +232,11 @@ div.submenu{
 }
 .copinhu:hover{
     cursor: pointer;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
@@ -251,6 +252,9 @@ div.submenu{
 }
 
 @media screen and (max-width: 768px){
+    div.submenu ul li a {
+        font-size: 15px;
+    }
     .right nav ul{
         display: none;
     }
@@ -286,7 +290,6 @@ div.submenu{
     }
     div.copos{
         z-index:2;
-
         left: 20%;
         bottom: 10px;
         width: 200px;
@@ -295,7 +298,7 @@ div.submenu{
     .Bucketeiner{
         z-index: 1;
         position: fixed;
-        top: 450px;
+        top: 59vh;
         right: -100px;
         display: inline-block;
         border-radius: 1000px;
@@ -307,9 +310,9 @@ div.submenu{
         z-index: 2;
         position:absolute;
         right: 0px;
-        top: 500px;
+        top: 65vh;
         width: 200px;
-        height: 200px;
+        height: 50px;
         text-align: right;
     }
     .icon{
@@ -320,12 +323,14 @@ div.submenu{
         margin-right:2px;
         display: inline-block;
     }
+
     section.conteiner article > h4{
-        font-size: 40px;
+        font-size: 5vh;
     }
+    
     section.conteiner{
         width: 100%;
-        padding: 90px 0 0 8%;
+        padding: 1vh 0 0 8%;
 
     }
 

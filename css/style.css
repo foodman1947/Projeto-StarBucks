@@ -254,6 +254,8 @@ div.submenu{
 @media screen and (max-width: 768px){
     div.submenu ul li a {
         font-size: 15px;
+        color: white;
+
     }
     .right nav ul{
         display: none;
